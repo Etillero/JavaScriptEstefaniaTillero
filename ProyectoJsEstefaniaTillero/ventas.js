@@ -1,4 +1,3 @@
-
 function calcularPresupuesto ( servUsuario , dUsuario){
     let cotizar;
     if (servUsuario == "CARTAS"){
@@ -34,6 +33,7 @@ function calcularPresupuesto ( servUsuario , dUsuario){
 
   cuotaslistadas.sort(((a, b) => a.cantidad - b.cantidad));
   console.log(cuotaslistadas);
+     
 
   const arrayCuotas = [6,3,12,18];
   
@@ -57,7 +57,7 @@ function calcularPresupuesto ( servUsuario , dUsuario){
         return cuotas
     }
   
-  }
+     }
   
   class servicios{ 
     constructor( nombre,costoproducto,cantidad) {
@@ -90,7 +90,7 @@ function calcularPresupuesto ( servUsuario , dUsuario){
   let sou = 1800;
   
   
-  let servUsuario = prompt("Indique el servicio a cotizar (Cartas / Historietas / Disfraces/ Souvenirs)").toUpperCase();
+  let servUsuario = prompt("Indique el servicio a cotizar (Cartas / Historietas / Disfraces/ Souvenirs") .toUpperCase();
   let dUsuario = parseInt(prompt("Indique el número de productos totales a requerir del servicio seleccionado (productos: 1, 2, 3)"));
   
   let serviciousuario = new servicios (servUsuario, dUsuario, "Star Wars");
@@ -112,3 +112,4 @@ function calcularPresupuesto ( servUsuario , dUsuario){
   else if(respUsuario == "ESC" || respUsuario != "SI"){
     alert("Hasta pronto")
   }
+

@@ -1,7 +1,4 @@
-.stretched-link{
-    color: black !important;
 
-      }
   
   .card-link{
     color:#000 !important;
@@ -26,7 +23,7 @@
      } 
 
      .form *{
-        background-color:#000);
+        background-color:#000;
         margin: auto;
         width: 90%;
         max-width: 400px;
@@ -34,7 +31,7 @@
         border-radius: 10px ;
         text-align: center;
         margin-top: 3px;
-
+        color:#fff;
       }
 
     
