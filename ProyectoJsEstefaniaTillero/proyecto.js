@@ -1,6 +1,6 @@
 
 
-
+/*
 
 
   // Sets the number of stars we wish to display
@@ -26,4 +26,5 @@ function getRandomPosition() {
     let randomY = Math.floor(Math.random()*y);
     return [randomX,randomY];
 }
+*/
 

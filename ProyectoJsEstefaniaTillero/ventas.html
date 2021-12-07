@@ -31,13 +31,11 @@
               </nav>
             
     </header>
-    <div class="starwars-demo">
-        <img src="//cssanimation.rocks/demo/starwars/images/star.svg" alt="Star" class="star">
-        <img src="//cssanimation.rocks/demo/starwars/images/wars.svg" alt="Wars" class="wars">
-        <h2 class="byline" id="byline">The Force Awakens</h2>
-      </div>
-
     <main> 
+
+      <!-- ESTA COMENTADO PORQUE AHORA USARE UN CARRITO, TAMBIEN ESTAN HECHAS CON BOOTS LAS CART DEL CARRITO
+
+         
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
@@ -82,6 +80,140 @@
           </div>
         </div>
       </div>
+    -->
+    
+    <section class="store">
+      <div class="container">
+          <div class="items">
+              <div class="row">
+
+                  <div class="col-12 col-md-6">
+                      <div class="item shadow mb-4">
+                          <h3 class="item-title">Cartas</h3>
+                          <img class="item-image" src="./img/ventas1.jpg">
+
+                          <div class="item-details">
+                              <h4 class="item-price">1.500 $</h4>
+                              <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                      <div class="item shadow mb-4">
+                          <h3 class="item-title">Historietas</h3>
+
+                          <img class="item-image" src="./img/ventas2.jpg">
+
+                          <div class="item-details">
+                              <h4 class="item-price">3.500 $</h4>
+                              <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-12 col-md-6">
+                      <div class="item shadow mb-4">
+                          <h3 class="item-title"> Disfraces</h3>
+
+                          <img class="item-image" src="./img/ventas3.png">
+
+                          <div class="item-details">
+                              <h4 class="item-price">9.000 $</h4>
+                              <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="item shadow mb-4">
+                        <h3 class="item-title"> Souvenirs</h3>
+                        <img class="item-image" src="./img/ventas5.jpg">
+                        <div class="item-details">
+                            <h4 class="item-price">6.000 $</h4>
+                            <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-12 col-md-6">
+                      <div class="item shadow mb-4">
+                          <h3 class="item-title">Auriculares Estéreo Disney Star Wars Darth Vader</h3>
+
+                          <img class="item-image" src="./img/ventas7.webp">
+                          <div class="item-details">
+                              <h4 class="item-price">20.000 $</h4>
+                              <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                      <div class="item shadow mb-4">
+                          <h3 class="item-title">Casco Stormtrooper Helmet Black Series Star Wars</h3>
+                          <img class="item-image" src="./img/ventas6.webp">
+                          <div class="item-details">
+                              <h4 class="item-price">6.000 $</h4>
+                              <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- END SECTION STORE -->
+  <section class="shopping-cart">
+      <div class="container">
+          <h1 class="text-center">CARRITO</h1>
+          <hr>
+          <div class="row">
+              <div class="col-6">
+                  <div class="shopping-cart-header">
+                      <h6>Producto</h6>
+                  </div>
+              </div>
+              <div class="col-2">
+                  <div class="shopping-cart-header">
+                      <h6 class="text-truncate">Precio</h6>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="shopping-cart-header">
+                      <h6>Cantidad</h6>
+                  </div>
+              </div>
+          </div>
+          <!-- ? START SHOPPING PRODUCT ITEMS -->
+          <div class="shopping-cart-items shoppingCartItemsContainer">
+          </div>
+  
+
+          <!-- STAR  W TOTAL -->
+          <div class="row">
+              <div class="col-12">
+                  <div class="shopping-cart-total d-flex align-items-center">
+                      <p class="mb-0">Total</p>
+                      <p class="ml-4 mb-0 shoppingCartTotal">0 Ars</p>
+                      <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                          data-delay="2000">
+                          <div class="toast-header">
+                              <span>✅</span>
+                              <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                              <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="toast-body text-white">
+                              Se aumentó correctamente la cantidad
+                          </div>
+                      </div>
+                      <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                          data-target="#comprarModal">Comprar</button>
+                  </div>
+              </div>
+          </div>
     </main>
   
 
@@ -95,8 +227,10 @@
           <i class="fa fa-twitter w3-hover-opacity"></i>
           <i class="fa fa-linkedin w3-hover-opacity"></i>
         </div>
+
+
       </footer>
     
 </body>
-<script src="proyecto.js"></script>
+<script src="ventas.js"></script>
 </html>
