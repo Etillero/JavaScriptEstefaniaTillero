@@ -124,6 +124,28 @@
 
 
   }
+
+  #contenedor{
+    width: 90%;
+    padding: auto;
+    margin: 10px;
+    text-align: center;
+    
+  }
+
+
+  #caja{
+    background: #333;
+    color: rgb(207, 207, 40);
+    width: 1100px;
+    margin: 150px;
+    height: 30px;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+
   /* Scale the logo down and maintain it centered */
   @keyframes logo {
       0% {

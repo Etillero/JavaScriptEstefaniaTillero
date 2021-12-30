@@ -65,3 +65,39 @@ function registro(){
     }
 }
 
+
+/*jquerys con animaciones y efectos*/
+
+$(document).ready(function() {
+    $("#fadeOut").click(function() {
+        $("#caja").fadeOut(4000);
+        $("#fadeOut").text("hasta la vista Padawan")
+        
+    })
+    
+})
+
+$(document).ready(function() {
+    $("#fadeId").click(function() {
+        $("#caja").fadeOut();
+        $("#fadeId").text("Hello luke!")
+        
+    })
+
+    $("#slideDown").click(function() {
+        $("#caja").slideDown(2000);
+    }) 
+
+     $("#slideUp").click(function() {
+            $("#caja").slideUp(2000);
+        })
+        
+})
+
+
+
+
+
+ 
+
+
