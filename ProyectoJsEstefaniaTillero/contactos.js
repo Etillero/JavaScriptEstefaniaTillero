@@ -3,7 +3,7 @@
 
 
 
-const formulario = document.getElementById("form");
+let formulario = document.getElementById("formulario");
 
 
 
@@ -93,11 +93,5 @@ $(document).ready(function() {
         })
         
 })
-
-
-
-
-
- 
 
 
